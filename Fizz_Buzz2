@@ -1,0 +1,64 @@
+<html> 
+<head> 
+<title> FizzBuzz</title>
+</head>
+
+<body>
+<p>
+<?php
+$numbers = 100;
+$fizz = 3 ;
+$buzz = 5 ;
+
+
+for ($i = 0; $i <101; $i++){
+  	echo $i; 
+		
+		if ($i /3){
+		echo "fizz"; 
+		else{ 
+			echo $i; 
+		}
+		
+		if ($i /5){ 
+			echo "buzz";
+			elseif ($i / 5; $i /3){
+			echo "FizzBuzz";
+			} 
+		}
+		}
+
+
+
+
+}/*
+
+	if ($numbers / $fizz){
+
+		echo "Fizz"; 
+
+		} 
+		elseif ($numbers / $buzz){
+	
+			echo "Buzz"; 
+				} 
+
+	   else{ 
+		   echo $numbers; 
+	   }
+*/
+/*
+For loop 
+for ($i = 100; $i; $i = $i + 10)
+For the numbers between 1 and 100 print the numbers 
+
+if the number is divisible by 3 print fizz 
+if divisible by 5 print buzz 
+if divisible by both print fizzbuzz 
+*/
+
+?>
+</p>
+
+</body>
+</html>
